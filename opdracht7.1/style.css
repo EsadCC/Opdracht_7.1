@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar {
+  background-color: red;
+  color: white;
+  height: 10vh; 
+  display: flex;
+  align-items: center;
+  padding-left: 4vw;
+}
+
+.section1 {
+  background-color: yellow;
+  height: 30vh;
+  padding: 3vw 4vw;
+  color: black;
+}
+
+.section2 {
+  background-color: orange;
+  height: 30vh;
+  padding: 3vw 4vw;
+  color: black;
+}
+
+.section3 {
+  background-color: lightgreen;
+  height: 30vh;
+  padding: 3vw 4vw;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    background-color: magenta;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hamburgerlogo
+  {
+    display: none;
+  }
+
+  .section1
+  {
+    background-color: red;
+    color: white;
+  }
+
+  .section2
+  {
+    background-color: lightblue;
+    color: white;
+  }
+
+  .section3
+  {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+  }
+
+  .hamburgerlogo
+  {
+    background-color: white;
+    width: 3vw;
+    height: 3vh;
+    display: block;
+  }
+
+  .section1
+  {
+    background-color: lightblue;
+    color: white;
+  }
+
+  .section2
+  {
+    background-color: purple;
+    color: white;
+  }
+
+  .section3
+  {
+    background-color: darkblue;
+    color: black;
+  }
+}
